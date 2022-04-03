@@ -1,4 +1,3 @@
-#создай тут фоторедактор Easy Editor!
 import os #Работа с ос
 from PyQt5.QtWidgets import (QApplication,QLabel, QFileDialog, QWidget, QPushButton,
 QListWidget,QHBoxLayout,QVBoxLayout) #Библиоабтека ПуКути5
@@ -179,5 +178,3 @@ btn_blur.clicked.connect(workimage.do_blur)
 btn_emboss.clicked.connect(workimage.do_emboss)
 btn_ee.clicked.connect(workimage.do_ee)
 app.exec()
-
-#Йа фсе
